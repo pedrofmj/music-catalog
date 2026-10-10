@@ -1,0 +1,37 @@
+{
+  "name": "music-catalog",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "dev": "npm run dev --workspace @music-catalog/web --",
+    "build": "npm run typecheck && npm run build --workspace @music-catalog/web",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "generate:schema": "node --experimental-strip-types scripts/generate-schema.ts",
+    "check:schema": "node --experimental-strip-types scripts/generate-schema.ts --check",
+    "check": "npm run typecheck && npm run check:schema && npm test && npm run build --workspace @music-catalog/web"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "fake-indexeddb": "^6.2.4",
+    "prettier": "^3.9.10",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.4",
+    "vitest": "^4.0.0"
+  }
+}

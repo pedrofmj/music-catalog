@@ -1,0 +1,20 @@
+{title: Sunday waltz}
+{artist: Music Catalog studies}
+{key: G}
+{tempo: 96}
+{time: 3/4}
+{comment: One chord per measure}
+
+{start_of_verse: A section}
+[G]One two three, [D]one two three
+[Em]Turn with the [C]melody
+[G]One two three, [D]one two three
+[C]Come back [D]home to [G]me
+{end_of_verse}
+
+{start_of_chorus: B section}
+[C]Softly the [G]afternoon
+[Am]Moves to a [D]simple tune
+[C]Leave the last [G]measure free
+[D]One two [G]three
+{end_of_chorus}

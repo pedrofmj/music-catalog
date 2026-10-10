@@ -1,0 +1,51 @@
+{title: Evening rehearsal}
+{artist: Music Catalog studies}
+{key: C}
+{tempo: 84}
+{time: 4/4}
+{comment: Easy, with a steady pulse}
+
+{start_of_verse: Intro}
+[C]One, two, [Am]find the time
+[F]Let each [G]note unwind
+{end_of_verse}
+
+{start_of_verse: Verse 1}
+[C]Leave a little [G]room to breathe
+[Am]Hear the spaces [F]in between
+[C]Every part has [G]its own place
+[F]Every voice a [G]little space
+{end_of_verse}
+
+{start_of_chorus: Chorus}
+[F]Keep the rhythm [C]running slow
+[Am]Let the melody [G]find its own
+[F]Side by side and [C]beat by beat
+[Dm]Bring it back to [G]one with [C]me
+{end_of_chorus}
+
+{start_of_verse: Verse 2}
+[C]Listen for the [G]softer sound
+[Am]Let the bass line [F]hold the ground
+[C]When the harmony [G]comes around
+[F]Leave the final [G]measure out
+{end_of_verse}
+
+{start_of_bridge: Bridge}
+[Dm]Take a breath and [Am]start again
+[F]Count the bars from [G]one to ten
+[Dm]Every change a [Am]place to meet
+[F]Find the song beneath our [G]feet
+{end_of_bridge}
+
+{start_of_chorus: Final chorus}
+[F]Keep the rhythm [C]running slow
+[Am]Let the melody [G]find its own
+[F]Side by side and [C]beat by beat
+[Dm]Bring it back to [G]one with [C]me
+{end_of_chorus}
+
+{start_of_verse: Outro}
+[F]Let the last note [G]ring
+[C]Let the last note ring
+{end_of_verse}
