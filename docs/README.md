@@ -34,3 +34,4 @@ owns the initial documentation convention and architecture.
 | Version | Type    | Slug | Specification                        |
 | ------- | ------- | ---- | ------------------------------------ |
 | 0.0.0.0 | feature | base | [Base](feature/0.0.0.0-base/spec.md) |
+| 0.0.0.1 | feature | kubernetes-deployment | [Kubernetes Deployment](feature/0.0.0.1-kubernetes-deployment/spec.md) |
